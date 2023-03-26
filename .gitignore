@@ -1,5 +1,9 @@
-JDBCProjectsettings
+JDBCProject/settings
 JDBCProject/build
 JDBCProject/WebContent/WEB-INF/lib
 JDBCProject/.classpath
 JDBCProject/.project
+jdbc-maven-setUp/.setting
+jdbc-maven-setUp/target
+jdbc-maven-setUp/.classpath
+jdbc-maven-setUp/.project
