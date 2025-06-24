@@ -24,5 +24,17 @@
 |MySQL                           | `org.hibernate.dialect.MySQL5Dialect`
 |Oracle                          | `org.hibernate.dialect.OracleDialect`
 
+# Mongo Db Pointers
 
+* Docker image pull command: docker pull mongo:8.0.10
+  <br></br>
+* Run Command: docker run --name mongo-container -d -p 27017:27017 <image_id>
+  <br></br>
+* When the repository package is on the different level to @SpringBootApplication / @EnableAutoConfiguration,
+  then we need to explicitly add the following annotation to the main class in order for spring boot to
+  read the mongo repositories. ![img.png](snips/img.png)
+
+<p align="center">
+    <img width="555" src="snips/img_1.png" alt="">
+</p>
 
