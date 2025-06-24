@@ -1,6 +1,6 @@
 package com.geek.mongo.crud;
 
-import com.geek.mongo.domain.Person;
+import com.geek.mongo.entity.Person;
 import com.geek.mongo.repos.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

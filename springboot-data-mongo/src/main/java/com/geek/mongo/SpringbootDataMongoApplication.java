@@ -1,6 +1,6 @@
 package com.geek.mongo;
 
-import com.geek.mongo.domain.Customer;
+import com.geek.mongo.entity.Customer;
 import com.geek.mongo.repos.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

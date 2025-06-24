@@ -1,6 +1,6 @@
 package com.geek.mongo.repos;
 
-import com.geek.mongo.domain.Person;
+import com.geek.mongo.entity.Person;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

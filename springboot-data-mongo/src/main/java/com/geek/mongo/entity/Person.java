@@ -1,4 +1,4 @@
-package com.geek.mongo.domain;
+package com.geek.mongo.entity;
 
 import lombok.Data;
 import lombok.experimental.SuperBuilder;
