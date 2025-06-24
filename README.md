@@ -33,6 +33,7 @@
 * When the repository package is on the different level to @SpringBootApplication / @EnableAutoConfiguration,
   then we need to explicitly add the following annotation to the main class in order for spring boot to
   read the mongo repositories.
+* Reference link - https://stackoverflow.com/questions/29221645/cant-autowire-repository-annotated-interface-in-spring-boot
 
 <p align="center">
   <img width="750" src="snips/img.png" alt="">
