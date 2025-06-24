@@ -35,7 +35,7 @@
   read the mongo repositories.
 
 <p align="center">
-  ![img.png](snips/img.png)  
+  <img width="750" src="snips/img.png" alt="">
   <img width="750" src="snips/img_1.png" alt="">
 </p>
 
