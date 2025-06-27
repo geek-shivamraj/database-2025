@@ -1,19 +1,26 @@
 package com.geek.mongo.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.UUID;
-
+/**
+ *  Since we're using @Data, lombok generates a constructor that accepts an object with the properties
+ *   for the SuperBuilder class.
+ *  We can fix this by adding @NoArgsConstructor
+ */
 @Data
-@SuperBuilder
-@Document(collation = "person")
+@SuperBuilder(toBuilder = true)
+@Document(collection = "person")
+@NoArgsConstructor
 public class Person {
     @Id
-    private UUID personId;
+    private String personId;
     private String firstName;
     private String lastName;
-    private int age;
+    private Integer age;
 }
